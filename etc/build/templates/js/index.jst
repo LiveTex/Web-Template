@@ -27,35 +27,6 @@
  */
 
 
-
-if (typeof console !== 'object') {
-  console = {};
-}
-
-if (typeof console.log !== 'function') {
-  console.log = function(var_args) {
-    alert(Array.prototype.slice.call(arguments).join(', '));
-  };
-}
-
-if (typeof console.info !== 'function') {
-  console.info = function(var_args) {
-    console.log.apply(null, arguments);
-  };
-}
-
-if (typeof console.warn !== 'function') {
-  console.warn = function(var_args) {
-    console.log.apply(null, arguments);
-  };
-}
-
-if (typeof console.error !== 'function') {
-  console.error = function(var_args) {
-    console.log.apply(null, arguments);
-  };
-}
-
 if (typeof JSON !== 'object') {
   throw Error('"JSON" object must exists.');
 }
@@ -75,4 +46,4 @@ if (typeof util === 'undefined' ||
 }
 
 
-%%make -s index.js-compile%%
+%%make -s index.js-web-compile%%
