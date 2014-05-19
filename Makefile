@@ -1,4 +1,3 @@
-TOOLS_PATH = /home/livetex/livetex-tools/web
-JS_ENVIRONMENT = browser
+TOOLS_PATH = /home/livetex/livetex-tools/0.3.0
 
 include $(TOOLS_PATH)/rules/js.mk
