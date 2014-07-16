@@ -1,3 +1,3 @@
-TOOLS_PATH = /home/livetex/livetex-tools/0.3.0
+TOOLS_PATH = /home/livetex/livetex-tools/0.3.6
 
 include $(TOOLS_PATH)/rules/js.mk
